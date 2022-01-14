@@ -1,13 +1,11 @@
 def somar(x, y):
     print(x + y)
 
-def multi(x, y):
-    print(x * y)
 
 def imc(altura, peso):
 
     indice = peso / ((altura / 100)** 2)
-    print(f'O seu índice IMC é: {indice}')
+    print(f'O seu índice IMC é: {indice}.')
 
     if indice >= 40:
         print('O estado é de obesidade grave.')
