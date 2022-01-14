@@ -1,8 +1,10 @@
 def somar(x, y):
     print(x + y)
 
+def multi(x, y):
+    print(x * y)
 
-def IMC(altura, peso):
+def imc(altura, peso):
 
     indice = peso / ((altura / 100)** 2)
     print(f'O seu índice IMC é: {indice}')
