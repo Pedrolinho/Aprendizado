@@ -17,3 +17,19 @@ def imc(altura, peso):
         print('O estado é normal.')
     else:
         print('O estado é de magreza.')
+
+
+def tipo_equip(equip):
+    equip = equip.lower()
+    
+    if equip == 'equipamento':
+        mats = 'quintessencia'
+    elif equip == 'acessório':
+        mats = 'fragmento'
+    elif equip == 'arma':
+        mats = 'esfera'
+    else:
+        mats = 0
+        print('Entrada inválida, digite "Arma", "Equipamento" ou "Acessório".')
+
+    return mats
