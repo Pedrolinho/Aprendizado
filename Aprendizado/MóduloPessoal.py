@@ -33,3 +33,4 @@ def tipo_equip(equip):
         print('Entrada inválida, digite "Arma", "Equipamento" ou "Acessório".')
 
     return mats
+
